@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    align-items: center;
+}
+
+* {
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* border: 1px red solid; */
+}
+
+#column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#socials{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+img:hover {
+    translate: 0px -5px;
+}
