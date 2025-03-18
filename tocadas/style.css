@@ -21,4 +21,18 @@ tr:nth-child(even) {
 
 * {
     font-family: 'Arial';
+    user-select: none;
+}
+
+button {
+    -moz-appearance: none; 
+    -webkit-appearance: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
