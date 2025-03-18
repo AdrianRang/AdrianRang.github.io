@@ -16,6 +16,8 @@ document.addEventListener("DOMContentLoaded", ()=>{
         })
         displayTotal();
     })
+
+    document.getElementById("backshots").addEventListener("click", () => {displayTotal()})
 });
 
 class counter {
@@ -50,5 +52,5 @@ const displayTotal = () => {
     counters.forEach(counter => {
         points += counter.get();
     });
-    document.getElementById("total").innerText = points;
+    document.getElementById("total").innerText = points.toString() + (document.getElementById("backshots").checked ? " - Gana por backshots" : "");
 }
